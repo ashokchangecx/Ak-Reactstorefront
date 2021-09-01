@@ -10,7 +10,7 @@
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development nodemon server.js",
     "prod": "cross-env NODE_ENV=production node server.js",
-    "build": "next build",
+    "build": "next build ",
     "test": "jest",
     "deploy": "npm run build && xdn deploy",
     "prettier": "prettier --write \"**/*.js\" \"!{node_modules,.next,.yalc}/**\""
